@@ -1,3 +1,7 @@
 /test.py
 /keras-tuner/
 /data/
+/stock-prediction/csv-results/
+/stock-prediction/data/
+/stock-prediction/logs/
+/stock-prediction/results/
