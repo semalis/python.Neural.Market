@@ -122,7 +122,7 @@ print("Total sell profit:", total_sell_profit)
 print("Total profit:", total_profit)
 print("Profit per trade:", profit_per_trade)
 # plot true/pred prices graph
-plot_graph(final_df)
+plot_graph(final_df.tail(200))
 print(final_df.tail(10))
 # save the final dataframe to csv-results folder
 csv_results_folder = "csv-results"
