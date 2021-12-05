@@ -6,3 +6,4 @@
 /stock-prediction/logs/
 /stock-prediction/results/
 *.xlsx
+*.csv
