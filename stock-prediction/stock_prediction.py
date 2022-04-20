@@ -23,7 +23,6 @@ def shuffle_in_unison(a, b):
     np.random.set_state(state)
     np.random.shuffle(b)
 
-
 def load_data(ticker, n_steps=50, scale=True, shuffle=True, lookup_step=1, split_by_date=True,
                 test_size=0.2, feature_columns=['adjclose', 'volume', 'open', 'high', 'low']):
     """
