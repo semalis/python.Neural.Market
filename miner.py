@@ -5,7 +5,6 @@ import urllib.request
 from datetime import datetime, timedelta
 import pandas as pd
 
-
 import statsmodels.api as sm
 
 # ============================= Мoдуль извлечения котировок с сайта www.finam.ru ===================
